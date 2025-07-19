@@ -24,7 +24,8 @@ namespace HellowWorld
                     "Image to PDF Convertor",
                     "Internet Speed Test",
                     "Joke of the Day",
-                    "Get Current Location"
+                    "Get Current Location",
+                    "addition of two number"
                 };
 
                 for (int i = 0; i < menuOptions.Count; i++)
