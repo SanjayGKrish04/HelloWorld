@@ -1,4 +1,5 @@
 ﻿using HellowWorld.LittleProjects;
+using HellowWorld.RakeshProjects;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -79,6 +80,10 @@ namespace HellowWorld
                     case 9:
                         LocationFetcher locationFetcher = new LocationFetcher();
                         await locationFetcher.GetCurrentLocation();
+                        break;
+
+                    case 10:
+                        Addition addition = new Addition();
                         break;
                     default:
                         Console.WriteLine($"Invalid choice. Please select within {menuOptions.Count}.");
