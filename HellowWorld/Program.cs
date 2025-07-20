@@ -26,7 +26,8 @@ namespace HellowWorld
                     "Internet Speed Test",
                     "Joke of the Day",
                     "Get Current Location",
-                    "addition of two number"
+                    "addition of two number",
+                    "multiplication of two number"
                 };
 
                 for (int i = 0; i < menuOptions.Count; i++)
@@ -84,6 +85,9 @@ namespace HellowWorld
 
                     case 10:
                         Addition addition = new Addition();
+                        break;
+                    case 11:
+                        Multiplication multiplication = new Multiplication();
                         break;
                     default:
                         Console.WriteLine($"Invalid choice. Please select within {menuOptions.Count}.");
