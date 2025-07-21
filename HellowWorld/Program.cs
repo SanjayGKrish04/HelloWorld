@@ -27,7 +27,9 @@ namespace HellowWorld
                     "Joke of the Day",
                     "Get Current Location",
                     "addition of two number",
-                    "multiplication of two number"
+                    "multiplication of two number",
+                    "Subtraction of two number",
+                     "Division of two number"
                 };
 
                 for (int i = 0; i < menuOptions.Count; i++)
@@ -89,6 +91,14 @@ namespace HellowWorld
                     case 11:
                         Multiplication multiplication = new Multiplication();
                         break;
+                    case 12:
+                        Subtraction subtraction = new Subtraction();
+                        break;
+
+                    case 13:
+                        Division division = new Division();
+                        break;
+
                     default:
                         Console.WriteLine($"Invalid choice. Please select within {menuOptions.Count}.");
                         break;
